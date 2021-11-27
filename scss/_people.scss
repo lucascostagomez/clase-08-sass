@@ -1,0 +1,22 @@
+/* Aplico propiedades grid para la page people */
+
+.grid-container-people{
+    background-color: $color-back;
+    padding: 1px;
+    grid-gap: 50px;
+
+    display: grid;
+   
+}
+
+.grid-container-people div{
+    background-color: white;
+    padding: 1px;
+    margin: auto;
+    align-items: center;
+    
+}
+
+// Variables
+
+$color-back: white;

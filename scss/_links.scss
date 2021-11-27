@@ -1,0 +1,16 @@
+/* Aplico propiedades flex para los links externos*/
+
+.flex-container-links-externos{
+    background-color: $color-fondo-links;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-links-externos li{
+    padding: 5px;}
+
+    // Variables
+
+    $color-fondo-links: thistle;
