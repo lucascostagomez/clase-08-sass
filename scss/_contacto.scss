@@ -6,12 +6,12 @@
     grid-gap: 50px;
 
     display: grid;
+
+    div{
+        background-color:whitesmoke;
+        padding: 1px;
+        margin: auto;
     
-}
-
-.grid-container-contacto div{
-    background-color:whitesmoke;
-    padding: 1px;
-    margin: auto;
-
+    }
+    
 }

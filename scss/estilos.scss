@@ -7,6 +7,14 @@
 @import "footer";
 @import "links";
 
+// Variables
+
+$color-fondo: gray;
+$color-titulos: rgb(41, 3, 110);
+
+// Operaciones
+
+$margen: 1,1 px;
 
 /* Estilos de titulos y subtitulos */
 
@@ -46,7 +54,7 @@ ul {
     li{
         display: inline-block;
         padding: 1px 70px;
-        margin: $margen*3;
+        
         /* Saco los sunrayados de los li */
         list-style-type: none;
     }
@@ -59,11 +67,3 @@ body{
 
 }
 
-// Variables
-
-$color-fondo: gray;
-$color-titulos: rgb(41, 3, 110);
-
-// Operaciones
-
-$margen: 1,1 px;
